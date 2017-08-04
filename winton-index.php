@@ -92,10 +92,9 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
         </div>
         <div class="w3-container">
           <p><i class="fa fa-suitcase fa-fw w3-margin-right w3-large w3-text-amber"></i>Software Developer</p>
-           <p><i class="fa fa-graduation-cap fa-fw  w3-margin-right w3-large w3-text-amber"></i>Sophmore at MIT</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-amber"></i>Cambridge, MA</p>
-          <p><i class="fa fa-at fa-fw w3-margin-right w3-large w3-text-amber"></i>mwinton@mit.edu</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-amber"></i>(704)-441-5985</p>
+          <a href="https://web.mit.edu/" style="text-decoration: none"  target="_blank"> <p><i class="fa fa-graduation-cap fa-fw  w3-margin-right w3-large w3-text-amber"></i>Sophomore at MIT</p></a>
+           <a href="https://www.google.com/maps/place/Massachusetts+Institute+of+Technology/@42.3600949,-71.0963487,17z/data=!3m1!4b1!4m5!3m4!1s0x89e370aaf51a6a87:0xd0e08ea5b308203c!8m2!3d42.360091!4d-71.09416" style="text-decoration: none"  target="_blank"> <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-amber"></i>Cambridge, MA</p></a>
+
           <hr>
 
           <p class="w3-large"><b></i>Notable Coding Languages</b></p>
@@ -118,7 +117,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
             <p><i class="devicon-ubuntu-plain colored w3-margin-right w3-xlarge w3-text-amber"></i>Ubuntu Server </p>
             <p><i class="devicon-apache-plain colored w3-margin-right w3-xlarge w3-text-amber"></i>Apache </p>
             <p><i class="devicon-github-plain  w3-margin-right w3-large  w3-xlarge w3-text-amber"></i>Github</p>
-            <p><i class="fa fa-file-word-o fa-fw w3-margin-right w3-large w3-text-amber"></i>Mirosoft Office</p>
+            <p><i class="fa fa-file-word-o fa-fw w3-margin-right w3-large w3-text-amber"></i>Microsoft Office</p>
          
        
           <br>
@@ -150,7 +149,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   
   
    <div class="w3-container w3-black w3-card-2 w3-margin-bottom animated fadeIn">
-        <h2 class="w3-text-white w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-amber"></i>Work Experience</h2>
+        <h2 class="w3-text-white w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-amber animated wobble"></i>Work Experience</h2>
         <div class="w3-container">
           <h4 class=" w3-text-white"  style="text-shadow:1px 1px 0 #444"><b>DC74 Data Canters</b></h4>
           <h7 class=" w3-text-white"  style="text-shadow:1px 1px 0 #444"><i>Software Developer</i></h7>
@@ -194,7 +193,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 <div id="Education" class="w3-container city" style="display:none" >
   <div class="w3-container w3-black w3-card-2 w3-margin-bottom w3-margin-top animated fadeIn">
-        <h2 class="w3-text-white w3-padding-16"><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-amber"></i>Education</h2>
+        <h2 class="w3-text-white w3-padding-16"><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-amber  animated wobble"></i>Education</h2>
         <div class="w3-container">
           <h4 class=" w3-text-white"  style="text-shadow:1px 1px 0 #444"><b>Massachuesetts Institute of Technology (MIT)</b></h4>
           <h7 class=" w3-text-white"  style="text-shadow:1px 1px 0 #444"><i>B.S. Candidate in Computer Science and Electrical Engineering</i></h7>
@@ -223,7 +222,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   
   
    <div class="w3-container w3-black w3-card-2 w3-margin-bottom animated fadeIn">
-        <h2 class="w3-text-white w3-padding-16"><i class="fa fa-group fa-fw w3-margin-right w3-xxlarge w3-text-amber"></i>Community Work</h2>
+        <h2 class="w3-text-white w3-padding-16"><i class="fa fa-group fa-fw w3-margin-right w3-xxlarge w3-text-amber  animated wobble"></i>Community Work</h2>
         <div class="w3-container">
           <h4 class=" w3-text-white"  style="text-shadow:1px 1px 0 #444"><b>Providence Day School's Students for South Africa</b></h4>
           <h7 class=" w3-text-white"  style="text-shadow:1px 1px 0 #444"><i>Executive Council Member</i></h7>
@@ -253,7 +252,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
  
    
   
-             <h2 class="w3-text-white w3-padding-16"><i class="fa fa-asterisk fa-fw w3-margin-right w3-xxlarge w3-text-amber"></i>Additional Skills</h2>
+             <h2 class="w3-text-white w3-padding-16"><i class="fa fa-asterisk fa-fw w3-margin-right w3-xxlarge w3-text-amber  animated wobble"></i>Additional Skills</h2>
             <div class="w3-container">
           
            <p class="w3-large w3-text-theme"><b>More Coding Languages</b></p>
