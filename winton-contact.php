@@ -26,7 +26,7 @@
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 
-
+<link href="animate.css" rel="stylesheet">
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
@@ -171,7 +171,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <!-- Left Column -->
 <div class="w3-quarter">
     
-      <div class="w3-black w3-text-white w3-card-4">
+      <div class="w3-black w3-text-white w3-card-4  animated fadeInLeft">
         <div class="w3-display-container">
           <img src="OPfSX91" style="width:100%; max-width:330px" alt="Picture supported on Internet Explorer">
           <div class="w3-display-bottomleft w3-container w3-text-white">
@@ -226,10 +226,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
  <div class="w3-twothird">
   
 
-     <div class="w3-container w3-black w3-card-2">
+     <div class="w3-container w3-black w3-card-2 animated fadeInDown" >
       <h1 class="w3-text-white w3-padding-16"><i class="fa fa-envelope fa-fw w3-margin-right w3-xxlarge w3-text-amber"></i>Email Me!</h1>
 </div>
-    <div class="w3-container w3-black w3-margin-top">
+    <div class="w3-container w3-black w3-margin-top animated fadeInUp">
 
       
           <h6 class="w3-text-amber">Interested in contacting me? Fill out this form and lets get in touch!</span></h6>
@@ -335,7 +335,7 @@ if (mail($recipient, $subject, $body, $header)) {
     
 <div class="w3-rest">
 
-<nav class="w3-sidebar w3-bar-block w3-black" style="width:130px; height:300px">
+<nav class="w3-sidebar w3-bar-block w3-black animated fadeInRight" style="width:130px; height:300px">
   <a href="winton-index.php" style="text-decoration: none" > <button class="w3-bar-item w3-button w3-hover-amber" ><b>Main Page</b></button></a>
    <a href="winton-contact.php" style="text-decoration: none"><button class="w3-bar-item w3-button w3-hover-amber" ><b>Contact Me</b></button></a> 
    <a href="winton-projects.php" style="text-decoration: none"><button class="w3-bar-item w3-button w3-hover-amber" ><b>Projects</b></button></a>

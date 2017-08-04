@@ -23,6 +23,7 @@
 <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/manifest.json">
+<link href="animate.css" rel="stylesheet">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
@@ -74,7 +75,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 
 <!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
+<div class="w3-content w3-margin-top " style="max-width:1400px;">
 
   <!-- The Grid -->
   <div class="w3-row-padding">
@@ -82,7 +83,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <!-- Left Column -->
     <div class="w3-quarter">
     
-      <div class="w3-black w3-text-white w3-card-4">
+      <div class="w3-black w3-text-white w3-card-4 animated fadeInLeft">
         <div class="w3-display-container">
           <img src="OPfSX91" style="width:100%; max-width:330px" alt="Picture supported on Internet Explorer">
           <div class="w3-display-bottomleft w3-container w3-text-white">
@@ -134,7 +135,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   
   
 
-<div class="w3-bar w3-black">
+<div class="w3-bar w3-black animated fadeInDown">
   <button class="w3-bar-item w3-hover-amber w3-button" onclick="openCity('Work Experience')"><b>Work Experience</b></button>
   <button class="w3-bar-item w3-button w3-hover-amber" onclick="openCity('Education')"><b>Education</b></button>
     <button class="w3-bar-item w3-button w3-hover-amber" onclick="openCity('Community Work')"><b>Community Work</b></button>
@@ -143,11 +144,12 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
  
 </div>
 
+<div class="animated fadeInUp">
 <div id="Work Experience" class="w3-container city">
  <br>
   
   
-   <div class="w3-container w3-black w3-card-2 w3-margin-bottom ">
+   <div class="w3-container w3-black w3-card-2 w3-margin-bottom animated fadeIn">
         <h2 class="w3-text-white w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-amber"></i>Work Experience</h2>
         <div class="w3-container">
           <h4 class=" w3-text-white"  style="text-shadow:1px 1px 0 #444"><b>DC74 Data Canters</b></h4>
@@ -190,8 +192,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   
 </div>
 
-<div id="Education" class="w3-container city" style="display:none">
-  <div class="w3-container w3-black w3-card-2 w3-margin-bottom w3-margin-top">
+<div id="Education" class="w3-container city" style="display:none" >
+  <div class="w3-container w3-black w3-card-2 w3-margin-bottom w3-margin-top animated fadeIn">
         <h2 class="w3-text-white w3-padding-16"><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-amber"></i>Education</h2>
         <div class="w3-container">
           <h4 class=" w3-text-white"  style="text-shadow:1px 1px 0 #444"><b>Massachuesetts Institute of Technology (MIT)</b></h4>
@@ -220,7 +222,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
    <br>
   
   
-   <div class="w3-container w3-black w3-card-2 w3-margin-bottom">
+   <div class="w3-container w3-black w3-card-2 w3-margin-bottom animated fadeIn">
         <h2 class="w3-text-white w3-padding-16"><i class="fa fa-group fa-fw w3-margin-right w3-xxlarge w3-text-amber"></i>Community Work</h2>
         <div class="w3-container">
           <h4 class=" w3-text-white"  style="text-shadow:1px 1px 0 #444"><b>Providence Day School's Students for South Africa</b></h4>
@@ -246,7 +248,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   
     <div id="Additional Skills" class="w3-container city" style="display:none">
   
-  <div class="w3-container w3-black w3-card-2 w3-margin-bottom w3-margin-top">
+  <div class="w3-container w3-black w3-card-2 w3-margin-bottom w3-margin-top animated fadeIn">
  
  
    
@@ -310,7 +312,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   
   
   
-  
+  </div>
   
   
   </div>
@@ -319,10 +321,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     
 <div class="w3-rest">
 
-<nav class="w3-sidebar w3-bar-block w3-black" style="width:130px; height:300px">
+<nav class="w3-sidebar w3-bar-block w3-black animated fadeInRight" style="width:130px; height:300px">
   <a href="winton-index.php" style="text-decoration: none" > <button class="w3-bar-item w3-button w3-hover-amber" ><b>Main Page</b></button></a>
    <a href="winton-contact.php" style="text-decoration: none"><button class="w3-bar-item w3-button w3-hover-amber" ><b>Contact Me</b></button></a> 
-   <a href="winton-projects.php" style="text-decoration: none"><button class="w3-bar-item w3-button w3-hover-amber" ><b>Projects</b></button></a>
+   <a href="winton-projects2.php" style="text-decoration: none"><button class="w3-bar-item w3-button w3-hover-amber" ><b>Projects</b></button></a>
 	 <a href="winton-blog.php" style="text-decoration: none"><button class="w3-bar-item w3-button w3-hover-amber" ><b>Blog</b></button></a>
    </nav>
 </div>  
@@ -339,7 +341,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <!-- End Page Container -->
 </div>
 
-<footer class="w3-container w3-black w3-center w3-margin-top w3-text-amber" >
+<footer class="w3-container w3-black w3-center w3-margin-top w3-text-amber animated fadeInUp" >
   <p>More about me!</p>
    <a href="https://www.facebook.com/mwinton97?ref=bookmarks" style="text-decoration: none"> <i class="fa fa-facebook-official w3-hover-opacity w3-xxlarge""></i></a>
    <a href="https://www.instagram.com/martin5156/" style="text-decoration: none"> <i class="fa fa-instagram w3-hover-opacity w3-xxlarge"></i></a>
