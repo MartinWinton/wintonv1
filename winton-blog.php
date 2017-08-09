@@ -27,19 +27,16 @@
 <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link href="animate.css" rel="stylesheet">
-<link rel="manifest" href="/manifest.json">
+ <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+ 
+<link href="styles.css" rel="stylesheet">
+
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 <style>
 
 <style>
-a {
-	padding: 0px 10px;
-	word-wrap: normal;
-	display: inline-block;
-}
-
 
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 </style>
@@ -47,6 +44,33 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 </head>
 
 <body class="w3-dark-grey">
+
+
+<div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+
+    <div id="menu" style="background-color:black">
+        <div class="pure-menu">
+      
+
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="winton-index.php" class="pure-menu-link" style = "color:white">Home</a></li>
+                <li class="pure-menu-item"><a href="winton-contact.php" class="pure-menu-link" style = "color:white">Contact Me</a></li>
+
+                <li class="pure-menu-item" class="menu-item-divided pure-menu-selected">
+                    <a href="winton-projects2.php" class="pure-menu-link" style = "color:white">Projects</a>
+                </li>
+
+                <li class="pure-menu-item"><a href="winton-blog.php" class="pure-menu-link" style = "color:white">Blog</a></li>
+            </ul>
+        </div>
+    </div>
+
+
 
 <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
@@ -58,7 +82,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     
       <div class="w3-black w3-text-white w3-card-4">
         <div class="w3-display-container">
-          <img src="OPfSX91" style="width:100%; max-width:330px" alt="Picture supported on Internet Explorer">
+          <img src="http://imgur.com/download/yJSzUMt" style="width:100%;" alt="Picture supported on Internet Explorer">
           <div class="w3-display-bottomleft w3-container w3-text-white">
             <h2>Martin Winton</h2>
           </div>
@@ -263,20 +287,7 @@ echo"</div>";
 
         </div>
       
-	  <div class="w3-rest">
-
-<nav class="w3-sidebar w3-bar-block w3-black animated fadeInRight" style="width:130px; height:300px">
-  <a href="winton-index.php" style="text-decoration: none" > <button class="w3-bar-item w3-button w3-hover-amber" ><b>Main Page</b></button></a>
-   <a href="winton-contact.php" style="text-decoration: none"><button class="w3-bar-item w3-button w3-hover-amber" ><b>Contact Me</b></button></a> 
-   <a href="winton-projects2.php" style="text-decoration: none"><button class="w3-bar-item w3-button w3-hover-amber" ><b>Projects</b></button></a>
-    <a href="winton-blog.php" style="text-decoration: none"><button class="w3-bar-item w3-button w3-hover-amber" ><b>Blog</b></button></a>
-</nav>
-</div>  
-  
-  
-  
-	
-	</div>  
+	 
   
   
   
@@ -290,14 +301,63 @@ echo"</div>";
 	
 	<footer class="w3-container w3-black w3-center w3-margin-top w3-text-amber" >
   <p>More about me!</p>
-   <a href="https://www.facebook.com/mwinton97?ref=bookmarks" style="text-decoration: none"> <i class="fa fa-facebook-official w3-hover-opacity w3-xxlarge""></i></a>
-   <a href="https://www.instagram.com/martin5156/" style="text-decoration: none"> <i class="fa fa-instagram w3-hover-opacity w3-xxlarge"></i></a>
-   <a href="https://www.linkedin.com/in/martin-winton-0a8b42127" style="text-decoration: none"><i class="fa fa-linkedin w3-hover-opacity w3-xxlarge""></i></a>
-   <a href="https://www.github.com/MartinWinton" style="text-decoration: none"><i class="fa fa-github w3-hover-opacity w3-xxlarge""></i></a>
+   <a href="https://www.facebook.com/mwinton97?ref=bookmarks" style="text-decoration: none" target="_blank"> <i class="fa fa-facebook-official w3-hover-opacity w3-xxlarge""></i></a>
+   <a href="https://www.instagram.com/martin5156/" style="text-decoration: none" target="_blank"> <i class="fa fa-instagram w3-hover-opacity w3-xxlarge"></i></a>
+   <a href="https://www.linkedin.com/in/martin-winton-0a8b42127" style="text-decoration: none" target="_blank"><i class="fa fa-linkedin w3-hover-opacity w3-xxlarge""></i></a>
+   <a href="https://www.github.com/MartinWinton" style="text-decoration: none" target="_blank"><i class="fa fa-github w3-hover-opacity w3-xxlarge""></i></a>
 </footer>
 	
 	
-	
+	<script> (function (window, document) {
+
+	    var layout   = document.getElementById('layout'),
+	        menu     = document.getElementById('menu'),
+	        menuLink = document.getElementById('menuLink'),
+	        content  = document.getElementById('main');
+
+	    function toggleClass(element, className) {
+	        var classes = element.className.split(/\s+/),
+	            length = classes.length,
+	            i = 0;
+
+	        for(; i < length; i++) {
+	          if (classes[i] === className) {
+	            classes.splice(i, 1);
+	            break;
+	          }
+	        }
+	        // The className is not found
+	        if (length === classes.length) {
+	            classes.push(className);
+	        }
+
+	        element.className = classes.join(' ');
+	    }
+
+	    function toggleAll(e) {
+	        var active = 'active';
+
+	        e.preventDefault();
+	        toggleClass(layout, active);
+	        toggleClass(menu, active);
+	        toggleClass(menuLink, active);
+	    }
+
+	    menuLink.onclick = function (e) {
+	        toggleAll(e);
+	    };
+
+	    content.onclick = function(e) {
+	        if (menu.className.indexOf('active') !== -1) {
+	            toggleAll(e);
+	        }
+	    };
+
+	}(this, this.document));
+
+
+
+	</script>
 	
 	
 </body>
