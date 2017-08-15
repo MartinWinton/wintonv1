@@ -22,7 +22,8 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -33,7 +34,7 @@
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 <style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+html,body,h1,h2,h3,h4,h5,h6,b {font-family: "Ubuntu", sans-serif}
 
 
 
@@ -66,6 +67,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 </style>
 <body class="w3-dark-grey">
 
+<div class="wrapper">
+
 
 <div id="layout">
     <!-- Menu toggle -->
@@ -80,13 +83,19 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
             <ul class="pure-menu-list">
                 <li class="pure-menu-item"><a href="winton-index.php" class="pure-menu-link" style = "color:white">Home</a></li>
-                <li class="pure-menu-item"><a href="winton-contact.php" class="pure-menu-link" style = "color:white">Contact Me</a></li>
 
                 <li class="pure-menu-item" class="menu-item-divided pure-menu-selected">
                     <a href="winton-projects2.php" class="pure-menu-link" style = "color:white">Projects</a>
                 </li>
 
+               
+               
+               
                 <li class="pure-menu-item"><a href="winton-blog.php" class="pure-menu-link" style = "color:white">Blog</a></li>
+                
+                
+                      <li class="pure-menu-item"><a href="winton-contact.php" class="pure-menu-link" style = "color:white">Contact Me</a></li>
+                
             </ul>
         </div>
     </div>
@@ -109,77 +118,83 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
   
     <!-- Left Column -->
-    <div class="w3-quarter">
-    
-      <div class="w3-black w3-text-white w3-card-4 animated fadeInLeft">
-        <div class="w3-display-container">
-          <img src="http://imgur.com/download/yJSzUMt" style="width:100%;  alt="Picture supported on Internet Explorer">
-          <div class="w3-display-bottomleft w3-container w3-text-white">
-            <h2>Martin Winton</h2>
-          </div>
-        </div>
-        <div class="w3-container">
-          <p><i class="fa fa-suitcase fa-fw w3-margin-right w3-large w3-text-amber"></i>Software Developer</p>
-          <a href="https://web.mit.edu/" style="text-decoration: none"  target="_blank"> <p><i class="fa fa-graduation-cap fa-fw  w3-margin-right w3-large w3-text-amber"></i>Sophomore at MIT</p></a>
-           <a href="https://www.google.com/maps/place/Massachusetts+Institute+of+Technology/@42.3600949,-71.0963487,17z/data=!3m1!4b1!4m5!3m4!1s0x89e370aaf51a6a87:0xd0e08ea5b308203c!8m2!3d42.360091!4d-71.09416" style="text-decoration: none"  target="_blank"> <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-amber"></i>Cambridge, MA</p></a>
-
-          <hr>
-
-          <p class="w3-large"><b></i>Notable Coding Languages</b></p>
-        
-          
-          <p><i class="devicon-java-plain w3-margin-right w3-xlarge w3-text-amber"></i>Java</p>
-           <p><i class="devicon-python-plain w3-margin-right w3-xlarge w3-text-amber"></i>Python</p>
-            <p><i class="devicon-php-plain w3-margin-right w3-xlarge w3-text-amber"></i>PHP</p>
-             <p><i class="devicon-cplusplus-plain w3-margin-right w3-xlarge w3-text-amber"></i>C/C++</p>
-              <p><i class="devicon-html5-plain w3-margin-right w3-xlarge w3-text-amber"></i>HTML</p>
-          
-        
-         
-        
-       
-        
-	  <hr>
-          <p class="w3-large w3-text-theme"><b>Technical Programs</b></p>
-            <p><i class="devicon-mysql-plain w3-margin-right w3-xlarge w3-text-amber"></i>MySQL</p>
-            <p><i class="devicon-ubuntu-plain colored w3-margin-right w3-xlarge w3-text-amber"></i>Ubuntu Server </p>
-            <p><i class="devicon-apache-plain colored w3-margin-right w3-xlarge w3-text-amber"></i>Apache </p>
-            <p><i class="devicon-github-plain  w3-margin-right w3-large  w3-xlarge w3-text-amber"></i>Github</p>
-            <p><i class="fa fa-file-word-o fa-fw w3-margin-right w3-large w3-text-amber"></i>Microsoft Office</p>
-         
-       
-          <br>
-        </div>
-      </div><br>
-
-    <!-- End Left Column -->
-    </div>
+ 
 
   
      <!-- Middle Column -->
   
-<div class="w3-col w3-twothird">
-  <div class="pure-menu pure-menu-horizontal">
-    <ul class="pure-menu-list">
-        <li class="pure-menu-item" onclick="openCity('Work Experience')></li>
-        <li class="pure-menu-item" onclick="openCity('Education')" ></li>
-        <li class="pure-menu-item" onclick="openCity('Community Work')"></li>
-         <li class="pure-menu-item" onclick="openCity('Additional Skills')"></li>
-    </ul>
-</div>
+<div class=" w3-threequarter">
+ 
   
  <div class="w3-container w3-black w3-card-2 animated fadeInDown ">
-
+   <button class="  button w3-hover-amber" onclick="openCity('About Me')"><b>About Me</b></button>
   <button class=" button w3-hover-amber" " onclick="openCity('Work Experience')"><b>Work Experience</b></button>
   <button class="  button w3-hover-amber" onclick="openCity('Education')"><b>Education</b></button>
     <button class="  button w3-hover-amber" onclick="openCity('Community Work')"><b>Community Work</b></button>
   <button class="  button w3-hover-amber" onclick="openCity('Additional Skills')"><b>Additional Skills/Interests</b></button>
+  
     
  
 </div>
 
 <div class="animated fadeInUp">
-<div id="Work Experience" class="w3-container city">
+
+<div id="About Me" class="w3-container city"  >
+  <div class="w3-container me w3-black w3-card-2 w3-margin-bottom w3-margin-top animated fadeIn">
+          <div class="w3-row">
+           <div class=" w3-col s7 m6 l7">
+        <h2 class="w3-text-white w3-padding-16"><i class="fa fa-user fa-fw w3-margin-right w3-xxlarge w3-text-amber  animated wobble"></i>About Me</h2>
+        
+       
+        
+       
+       
+        <div class="w3-container">
+          <h2 class=" w3-text-white"  style="text-shadow:1px 1px 0 #444"><b>Hi!</b></h2>
+        
+          <p>My name is Martin Winton and I am an aspiring software developer. I am currently enjoying my second year at MIT and pursuing a major in Computer Science with a minor in Econimics. My goal is to create software that is useful, streamlined, and fun!</p>
+      
+        </div>
+         
+     
+     
+     </div>
+     
+     
+      
+        <div class="w3-col s5 m6 l5">
+       
+     <div class="w3-display-container">
+             <img src="http://imgur.com/download/IvXQtmM"  class="w3-image"  alt="Picture supported on Internet Explorer">
+    
+   
+       </div>
+        
+       
+        
+       
+      </div>
+     
+     
+     </div>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     </div>
+     
+     
+      </div>
+
+
+
+<div id="Work Experience" class="w3-container city" style="display:none">
  <br>
   
   
@@ -201,14 +216,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
           <p>Things.</p>
           <hr>
         </div>
-        <div class="w3-container">
-          <h4 class=" w3-text-white"  style="text-shadow:1px 1px 0 #444"><b>MIT IEEE/ACM Club</b></h4>
-          <h7 class=" w3-text-white"  style="text-shadow:1px 1px 0 #444"><i>Board Treasurer</i></h7>
-          <h6 class="w3-text-amber"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2016-<span class="w3-tag w3-amber w3-round">Present</span></h6>
-          <h6 class="w3-text-amber"><i class="fa fa-location-arrow fa-fw w3-margin-right"></i>Cambridge, MA</h6>
-          <p>Things.</p>
-          <hr>
-        </div>
+       
          <div class="w3-container">
           <h4 class=" w3-text-white"  style="text-shadow:1px 1px 0 #444"><b>Harris Teeter Supermarket</b></h4>
           <h7 class=" w3-text-white"  style="text-shadow:1px 1px 0 #444"><i>Cashier/Bagger</i></h7>
@@ -258,10 +266,21 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   
    <div class="w3-container w3-black w3-card-2 w3-margin-bottom animated fadeIn">
         <h2 class="w3-text-white w3-padding-16"><i class="fa fa-group fa-fw w3-margin-right w3-xxlarge w3-text-amber  animated wobble"></i>Community Work</h2>
+       
+        <div class="w3-container">
+          <h4 class=" w3-text-white"  style="text-shadow:1px 1px 0 #444"><b>MIT IEEE/ACM Club</b></h4>
+          <h7 class=" w3-text-white"  style="text-shadow:1px 1px 0 #444"><i>Board Treasurer</i></h7>
+          <h6 class="w3-text-amber"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2016-<span class="w3-tag w3-amber w3-round">Present</span></h6>
+          <h6 class="w3-text-amber"><i class="fa fa-location-arrow fa-fw w3-margin-right"></i>Cambridge, MA</h6>
+          <p>Things.</p>
+          <hr>
+        </div>
+       
+       
         <div class="w3-container">
           <h4 class=" w3-text-white"  style="text-shadow:1px 1px 0 #444"><b>Providence Day School's Students for South Africa</b></h4>
           <h7 class=" w3-text-white"  style="text-shadow:1px 1px 0 #444"><i>Executive Council Member</i></h7>
-          <h6 class="w3-text-amber"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2015 - May2016</span></h6>
+          <h6 class="w3-text-amber"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2015 - May 2016</span></h6>
           <h6 class="w3-text-amber"><i class="fa fa-location-arrow fa-fw w3-margin-right"></i>Charlotte, NC</h6>
           <p>Things.</p>
           <hr>
@@ -304,9 +323,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
        
         
 	  <hr>
-          <p class="w3-large w3-text-theme"><b>More Programs</b></p>
+          <p class="w3-large w3-text-theme"><b>More Software</b></p>
             <p><i class="devicon-windows8-original w3-margin-right w3-xlarge w3-text-amber"></i>Windows</p>
             <p><i class="devicon-linux-plain  w3-margin-right w3-xlarge w3-text-amber"></i>Linux</p>
+             <p><i class="devicon-bootstrap-plain  w3-margin-right w3-xlarge w3-text-amber"></i>Bootstrap</p>
               <span class="latex   w3-text-amber ">L<sup>a</sup>T<sub>e</sub>X</span> &nbsp LaTeX
             <p><i class="devicon-slack-plain w3-margin-right w3-xlarge w3-text-amber"></i>Slack </p>
              <p><i class="devicon-mysql-plain w3-margin-right w3-xlarge w3-text-amber"></i>MySQL Workbench</p>
@@ -314,6 +334,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
                <p><i class="fa fa-desktop fa-fw  w3-margin-right w3-xlarge w3-text-amber"></i>Xming</p>
               <p><i class="fa fa-desktop fa-fw  w3-margin-right w3-xlarge w3-text-amber"></i>PuTTY</p>
               <p><i class="fa fa-desktop fa-fw  w3-margin-right w3-xlarge w3-text-amber"></i>Eclipse</p>
+               <p><i class="fa fa-desktop fa-fw  w3-margin-right w3-xlarge w3-text-amber"></i>Command Line</p>
             
          
             
@@ -353,7 +374,63 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
    <!-- End of Middle Column -->
   
     
+   <div class="w3-quarter">
+   
+    
+    
+    
+      <div class="w3-black w3-text-white w3-card-4 animated fadeInRight" style="padding-bottom: 5px">
+        <div class="w3-display-container">
+          <img src="http://imgur.com/download/yJSzUMt" style="width:100%;  alt="Picture supported on Internet Explorer">
+          <div class="w3-display-bottomleft w3-container w3-text-white">
+            <h2>Martin Winton</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-suitcase fa-fw w3-margin-right w3-large w3-text-amber"></i>Software Developer</p>
+          <a href="https://web.mit.edu/" style="text-decoration: none"  target="_blank"> <p class ="w3-hover-opacity"><i class="fa fa-graduation-cap fa-fw  w3-margin-right w3-large   w3-text-amber"></i>Sophomore at MIT</p></a>
+           <a href="https://www.google.com/maps/place/Massachusetts+Institute+of+Technology/@42.3600949,-71.0963487,17z/data=!3m1!4b1!4m5!3m4!1s0x89e370aaf51a6a87:0xd0e08ea5b308203c!8m2!3d42.360091!4d-71.09416" style="text-decoration: none"  target="_blank"> <p class ="w3-hover-opacity"><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-amber"></i>Cambridge, MA</p></a>
 
+         
+    <input id="toggle" type="checkbox" >
+  <label for="toggle"><i id="drop" class="fa fa-chevron-down fa-fw w3-text-amber w3-margin-right animated flash" ></i> </label>
+     <div id="expand">
+   
+
+        
+          <p class="w3-large"><b></i>Coding Languages</b></p>
+        
+          
+          <p><i class="devicon-java-plain w3-margin-right w3-xlarge w3-text-amber"></i>Java</p>
+           <p><i class="devicon-python-plain w3-margin-right w3-xlarge w3-text-amber"></i>Python</p>
+            <p><i class="devicon-php-plain w3-margin-right w3-xlarge w3-text-amber"></i>PHP</p>
+             <p><i class="devicon-cplusplus-plain w3-margin-right w3-xlarge w3-text-amber"></i>C/C++</p>
+              <p><i class="devicon-html5-plain w3-margin-right w3-xlarge w3-text-amber"></i>HTML</p>
+          
+        
+         
+        
+       
+        
+	  <hr>
+          <p class="w3-large w3-text-theme"><b>Technical Programs</b></p>
+            <p><i class="devicon-mysql-plain w3-margin-right w3-xlarge w3-text-amber"></i>MySQL</p>
+            <p><i class="devicon-ubuntu-plain colored w3-margin-right w3-xlarge w3-text-amber"></i>Ubuntu Server </p>
+            <p><i class="devicon-apache-plain colored w3-margin-right w3-xlarge w3-text-amber"></i>Apache </p>
+            <p><i class="devicon-github-plain  w3-margin-right w3-large  w3-xlarge w3-text-amber"></i>Git/Github</p>
+            <p><i class="fa fa-file-word-o fa-fw w3-margin-right w3-large w3-text-amber"></i>Microsoft Office</p>
+         
+       
+          <br>
+        
+  </div>
+  
+         
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
    
    
    
@@ -374,7 +451,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <!-- End Page Container -->
 </div>
 
-<footer class="w3-container w3-black w3-center w3-margin-top w3-text-amber animated fadeInUp" >
+ <div class="push"></div>
+</div>
+<div class="footer"></div>
+<footer class="w3-container w3-black w3-center w3-margin-top w3-text-amber animated fadeInUp" style="height:110px">
   <p>More about me!</p>
    <a href="https://www.facebook.com/mwinton97?ref=bookmarks" style="text-decoration: none" target="_blank"> <i class="fa fa-facebook-official w3-hover-opacity w3-xxlarge""></i></a>
    <a href="https://www.instagram.com/martin5156/" style="text-decoration: none" target="_blank"> <i class="fa fa-instagram w3-hover-opacity w3-xxlarge"></i></a>

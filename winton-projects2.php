@@ -63,7 +63,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 </style>
 <body class="w3-dark-grey">
-
+<div class="wrapper">
 <div id="layout">
     <!-- Menu toggle -->
     <a href="#menu" id="menuLink" class="menu-link">
@@ -77,13 +77,16 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
             <ul class="pure-menu-list">
                 <li class="pure-menu-item"><a href="winton-index.php" class="pure-menu-link" style = "color:white">Home</a></li>
-                <li class="pure-menu-item"><a href="winton-contact.php" class="pure-menu-link" style = "color:white">Contact Me</a></li>
 
                 <li class="pure-menu-item" class="menu-item-divided pure-menu-selected">
                     <a href="winton-projects2.php" class="pure-menu-link" style = "color:white">Projects</a>
                 </li>
 
                 <li class="pure-menu-item"><a href="winton-blog.php" class="pure-menu-link" style = "color:white">Blog</a></li>
+           
+                           <li class="pure-menu-item"><a href="winton-contact.php" class="pure-menu-link" style = "color:white">Contact Me</a></li>
+           
+           
             </ul>
         </div>
     </div>
@@ -101,9 +104,77 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <div class="w3-row-padding">
   
     <!-- Left Column -->
+
+  
+  
+
+  
+
+  
+     <!-- Middle Column -->
+  
+ <div class="w3-threequarter">
+  
+
+     <div class="w3-container w3-black w3-card-2 animated fadeInDown">
+      <h1 class="w3-text-white w3-padding-16"><i class="fa fa-code-fork fa-fw w3-margin-right w3-xxlarge w3-text-amber animated fadeInDownBig"></i>Projects</h1>
+</div>
+    <div class="w3-container w3-black w3-margin-top animated fadeInUp">
+    
+    <h6 class="w3-text-amber">Here's some sample code from some of the projects I've completed over the years. Click on a github icon to go to that project's repo! </h6>
+    <div>
+    
+ <h3 class="w3-text-white w3-padding-16">  <a href="https://www.github.com/MartinWinton/rwhois" style="text-decoration: none" target="_blank"><i class="fa fa-github w3-hover-opacity  w3-margin-right w3-text-amber w3-xxlarge""></i></a>Rwhois Database Manager</h3>
+       <input id="toggle2" type="checkbox" >
+  <label for="toggle2"><i id="drop" class="fa fa-chevron-down w3-text-amber w3-margin-right animated flash" ></i> </label>
+     <i class="devicon-php-plain colored w3-margin-right w3-xlarge w3-text-amber"></i>
+     <div id="expand">
+   <script src="https://gist.github.com/MartinWinton/6566d6e54410f2078f66ff5923586b70.js"></script>
+     </div> 
+      
+  </div>
+  
+       <div>
+    
+ <h3 class="w3-text-white w3-padding-16">  <a href="https://www.github.com/MartinWinton/TwitterProject" style="text-decoration: none" target="_blank"><i class="fa fa-github w3-hover-opacity  w3-margin-right w3-text-amber w3-xxlarge""></i></a>Twitter Sentiment Analysis Project </h3> 
+       <input id="toggle3" type="checkbox" >
+
+  <label for="toggle3"><i id="drop" class="fa fa-chevron-down w3-text-amber w3-margin-right animated flash" ></i> </label>
+      <i class="devicon-java-plain colored w3-margin-right w3-xlarge w3-text-amber"></i>
+     <div id="expand">
+<script src="https://gist.github.com/MartinWinton/619b76fafa35eee1fd4a4f858525f76f.js"></script>
+     </div> 
+      
+  </div>
+  
+    
+     <div>
+    
+ <h3 class="w3-text-white w3-padding-16">  <a href="https://www.github.com/MartinWinton/encoder-decoder" style="text-decoration: none" target="_blank"><i class="fa fa-github w3-hover-opacity  w3-margin-right w3-text-amber w3-xxlarge""></i></a>Encoder/Decoder in Binary, Hexadecimal, and Base64 </h3> 
+       <input id="toggle4" type="checkbox" >
+
+  <label for="toggle4"><i id="drop" class="fa fa-chevron-down w3-text-amber w3-margin-right animated flash" ></i> </label>
+      <i class="devicon-php-plain colored w3-margin-right w3-xlarge w3-text-amber"></i>
+     <div id="expand">
+      <script src="https://gist.github.com/MartinWinton/8374bc3bc371cb48cb0530c34e8c3b71.js"></script>
+   
+     </div> 
+   
+  </div>
+  
+    
+    
+    
+
+       
+      </div>
+  </div><div class="wrapper">
+   <!-- End of Middle Column -->
+  
+    
 <div class="w3-quarter">
     
-      <div class="w3-black w3-text-white w3-card-4 animated fadeInLeft">
+      <div class="w3-black w3-text-white w3-card-4 animated fadeInRight">
         <div class="w3-display-container">
           <img src="http://imgur.com/download/yJSzUMt" style="width:100%; " alt="Picture supported on Internet Explorer">
           <div class="w3-display-bottomleft w3-container w3-text-white">
@@ -112,12 +183,18 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
         </div>
         <div class="w3-container">
           <p><i class="fa fa-suitcase fa-fw w3-margin-right w3-large w3-text-amber"></i>Software Developer</p>
-         <a href="https://web.mit.edu/" style="text-decoration: none"  target="_blank" > <p><i class="fa fa-graduation-cap fa-fw  w3-margin-right w3-large w3-text-amber"></i>Sophomore at MIT</p></a>
-           <a href="https://www.google.com/maps/place/Massachusetts+Institute+of+Technology/@42.3600949,-71.0963487,17z/data=!3m1!4b1!4m5!3m4!1s0x89e370aaf51a6a87:0xd0e08ea5b308203c!8m2!3d42.360091!4d-71.09416" style="text-decoration: none"  target="_blank" > <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-amber"></i>Cambridge, MA</p></a>
+         <a href="https://web.mit.edu/" style="text-decoration: none"  target="_blank" > <p class ="w3-hover-opacity"><i class="fa fa-graduation-cap fa-fw   w3-margin-right w3-large w3-text-amber"></i>Sophomore at MIT</p></a>
+           <a href="https://www.google.com/maps/place/Massachusetts+Institute+of+Technology/@42.3600949,-71.0963487,17z/data=!3m1!4b1!4m5!3m4!1s0x89e370aaf51a6a87:0xd0e08ea5b308203c!8m2!3d42.360091!4d-71.09416" style="text-decoration: none"  target="_blank" > <p class ="w3-hover-opacity"><i class="fa fa-home fa-fw w3-margin-right   w3-large w3-text-amber"></i>Cambridge, MA</p></a>
       
-          <hr>
+     
 
-          <p class="w3-large"><b></i>Notable Coding Languages</b></p>
+      <input id="toggle" type="checkbox" >
+  <label for="toggle"><i id="drop" class="fa fa-chevron-down fa-fw w3-text-amber w3-margin-right animated flash" ></i> </label>
+     <div id="expand">
+   
+
+        
+          <p class="w3-large"><b></i>Coding Languages</b></p>
         
           
           <p><i class="devicon-java-plain w3-margin-right w3-xlarge w3-text-amber"></i>Java</p>
@@ -136,42 +213,20 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
             <p><i class="devicon-mysql-plain w3-margin-right w3-xlarge w3-text-amber"></i>MySQL</p>
             <p><i class="devicon-ubuntu-plain colored w3-margin-right w3-xlarge w3-text-amber"></i>Ubuntu Server </p>
             <p><i class="devicon-apache-plain colored w3-margin-right w3-xlarge w3-text-amber"></i>Apache </p>
-            <p><i class="devicon-github-plain  w3-margin-right w3-large  w3-xlarge w3-text-amber"></i>Github</p>
-            <p><i class="fa fa-file-word-o fa-fw w3-margin-right w3-large w3-text-amber"></i>Mirosoft Office</p>
+            <p><i class="devicon-github-plain  w3-margin-right w3-large  w3-xlarge w3-text-amber"></i>Git/Github</p>
+            <p><i class="fa fa-file-word-o fa-fw w3-margin-right w3-large w3-text-amber"></i>Microsoft Office</p>
          
        
           <br>
+        
+  </div>
+  
+         
         </div>
       </div><br>
 
     <!-- End Left Column -->
     </div>
-  
-  
-
-  
-
-  
-     <!-- Middle Column -->
-  
- <div class="w3-twothird">
-  
-
-     <div class="w3-container w3-black w3-card-2 animated fadeInDown">
-      <h1 class="w3-text-white w3-padding-16"><i class="fa fa-code-fork fa-fw w3-margin-right w3-xxlarge w3-text-amber animated fadeInDownBig"></i>Projects</h1>
-</div>
-    <div class="w3-container w3-black w3-margin-top animated fadeInUp">
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/XGSy3_Czz8k">
-</iframe>
-      
-       
-      </div>
-  </div>
-   <!-- End of Middle Column -->
-  
-    
-
   
   
   
@@ -180,15 +235,20 @@ src="https://www.youtube.com/embed/XGSy3_Czz8k">
   
   <!-- End Page Container -->
 </div>
+</div> 
+</div>
+ <div class="push"></div>
 
-<footer class="w3-container w3-black w3-center w3-margin-top w3-text-amber" >
-  <p>Connect with me on social media!</p>
+</div>
+<div class="footer"></div>
+<footer class="w3-container w3-black w3-center w3-margin-top w3-text-amber animated fadeInUp" style="height:110px">
+  <p>More about me!</p>
    <a href="https://www.facebook.com/mwinton97?ref=bookmarks" style="text-decoration: none" target="_blank"> <i class="fa fa-facebook-official w3-hover-opacity w3-xxlarge""></i></a>
    <a href="https://www.instagram.com/martin5156/" style="text-decoration: none" target="_blank"> <i class="fa fa-instagram w3-hover-opacity w3-xxlarge"></i></a>
    <a href="https://www.linkedin.com/in/martin-winton-0a8b42127" style="text-decoration: none" target="_blank"><i class="fa fa-linkedin w3-hover-opacity w3-xxlarge""></i></a>
    <a href="https://www.github.com/MartinWinton" style="text-decoration: none" target="_blank"><i class="fa fa-github w3-hover-opacity w3-xxlarge""></i></a>
 </footer>
-
+  
 
 <script> (function (window, document) {
 
