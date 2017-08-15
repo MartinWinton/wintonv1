@@ -29,7 +29,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link href="animate.css" rel="stylesheet">
 <link href="styles.css" rel="stylesheet">
-<link href="bootstrap.min.css" rel="stylesheet">
+<link href="bootstrap.css" rel="stylesheet">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
@@ -82,19 +82,19 @@ html,body,h1,h2,h3,h4,h5,h6,b {font-family: "Ubuntu", sans-serif}
       
 
             <ul class="pure-menu-list">
-                <li class="pure-menu-item"><a href="winton-index.php" class="pure-menu-link" style = "color:white">Home</a></li>
+                <li class="pure-menu-item"><a href="winton-index.php" class="pure-menu-link">Home</a></li>
 
                 <li class="pure-menu-item" class="menu-item-divided pure-menu-selected">
-                    <a href="winton-projects2.php" class="pure-menu-link" style = "color:white">Projects</a>
+                    <a href="winton-projects2.php" class="pure-menu-link" >Projects</a>
                 </li>
 
                
                
                
-                <li class="pure-menu-item"><a href="winton-blog.php" class="pure-menu-link" style = "color:white">Blog</a></li>
+                <li class="pure-menu-item"><a href="winton-blog.php" class="pure-menu-link">Blog</a></li>
                 
                 
-                      <li class="pure-menu-item"><a href="winton-contact.php" class="pure-menu-link" style = "color:white">Contact Me</a></li>
+                      <li class="pure-menu-item"><a href="winton-contact.php" class="pure-menu-link">Contact Me</a></li>
                 
             </ul>
         </div>
@@ -114,7 +114,7 @@ html,body,h1,h2,h3,h4,h5,h6,b {font-family: "Ubuntu", sans-serif}
 
 
   <!-- The Grid -->
-  <div class="w3-row-padding">
+ <div class="row">
 
   
     <!-- Left Column -->
@@ -123,7 +123,7 @@ html,body,h1,h2,h3,h4,h5,h6,b {font-family: "Ubuntu", sans-serif}
   
      <!-- Middle Column -->
   
-<div class=" w3-threequarter">
+<div class=" col-xs-offset-1 col-xs-10  col-sm-offset-0  col-sm-9 sep">
  
   
  <div class="w3-container w3-black w3-card-2 animated fadeInDown ">
@@ -140,16 +140,16 @@ html,body,h1,h2,h3,h4,h5,h6,b {font-family: "Ubuntu", sans-serif}
 <div class="animated fadeInUp">
 
 <div id="About Me" class="w3-container city"  >
-  <div class="w3-container me w3-black w3-card-2 w3-margin-bottom w3-margin-top animated fadeIn">
+  <div class="w3-container me w3-black w3-card-2  w3-margin-top animated fadeIn">
           <div class="w3-row">
-           <div class=" w3-col s7 m6 l7">
+           <div class=" w3-col s9 m6 l7">
         <h2 class="w3-text-white w3-padding-16"><i class="fa fa-user fa-fw w3-margin-right w3-xxlarge w3-text-amber  animated wobble"></i>About Me</h2>
         
        
         
        
        
-        <div class="w3-container">
+        <div class="w3-container text-center">
           <h2 class=" w3-text-white"  style="text-shadow:1px 1px 0 #444"><b>Hi!</b></h2>
         
           <p>My name is Martin Winton and I am an aspiring software developer. I am currently enjoying my second year at MIT and pursuing a major in Computer Science with a minor in Econimics. My goal is to create software that is useful, streamlined, and fun!</p>
@@ -162,7 +162,7 @@ html,body,h1,h2,h3,h4,h5,h6,b {font-family: "Ubuntu", sans-serif}
      
      
       
-        <div class="w3-col s5 m6 l5">
+        <div class="w3-col s3 m6 l5">
        
      <div class="w3-display-container">
              <img src="http://imgur.com/download/IvXQtmM"  class="w3-image"  alt="Picture supported on Internet Explorer">
@@ -372,11 +372,9 @@ html,body,h1,h2,h3,h4,h5,h6,b {font-family: "Ubuntu", sans-serif}
   
   </div>
    <!-- End of Middle Column -->
-  
-    
-   <div class="w3-quarter">
    
-    
+   
+  <div class=" col-xs-offset-2 col-xs-8  col-sm-offset-0 col-sm-3 ">
     
     
       <div class="w3-black w3-text-white w3-card-4 animated fadeInRight" style="padding-bottom: 5px">
@@ -393,7 +391,7 @@ html,body,h1,h2,h3,h4,h5,h6,b {font-family: "Ubuntu", sans-serif}
 
          
     <input id="toggle" type="checkbox" >
-  <label for="toggle"><i id="drop" class="fa fa-chevron-down fa-fw w3-text-amber w3-margin-right animated flash" ></i> </label>
+  <label for="toggle"><i id="drop" class="fa fa-chevron-down fa-fw w3-text-amber hvr-grow w3-margin-right animated flash" ></i> </label>
      <div id="expand">
    
 
@@ -433,8 +431,7 @@ html,body,h1,h2,h3,h4,h5,h6,b {font-family: "Ubuntu", sans-serif}
     </div>
    
    
-   
-   
+
    
    
    
@@ -455,13 +452,19 @@ html,body,h1,h2,h3,h4,h5,h6,b {font-family: "Ubuntu", sans-serif}
 </div>
 <div class="footer"></div>
 <footer class="w3-container w3-black w3-center w3-margin-top w3-text-amber animated fadeInUp" style="height:110px">
-  <p>More about me!</p>
-   <a href="https://www.facebook.com/mwinton97?ref=bookmarks" style="text-decoration: none" target="_blank"> <i class="fa fa-facebook-official w3-hover-opacity w3-xxlarge""></i></a>
-   <a href="https://www.instagram.com/martin5156/" style="text-decoration: none" target="_blank"> <i class="fa fa-instagram w3-hover-opacity w3-xxlarge"></i></a>
-   <a href="https://www.linkedin.com/in/martin-winton-0a8b42127" style="text-decoration: none" target="_blank"><i class="fa fa-linkedin w3-hover-opacity w3-xxlarge""></i></a>
-   <a href="https://www.github.com/MartinWinton" style="text-decoration: none" target="_blank"><i class="fa fa-github w3-hover-opacity w3-xxlarge""></i></a>
-</footer>
+<br>
 
+   <a href="https://www.linkedin.com/in/martin-winton-0a8b42127" style="text-decoration: none" target="_blank"><i class="fa fa-linkedin ficon  w3-hover-opacity hvr-pulse w3-xxlarge""></i></a>
+  <a href="https://www.github.com/MartinWinton" style="text-decoration: none" target="_blank"><i class="fa fa-github w3-hover-opacity hvr-pulse ficon w3-xxlarge""></i></a>
+  
+     <a href="https://www.facebook.com/mwinton97?ref=bookmarks" style="text-decoration: none" target="_blank"> <i class="fa fa-facebook-official  hvr-pulse ficon w3-hover-opacity w3-xxlarge""></i></a>
+   <a href="https://www.instagram.com/martin5156/" style="text-decoration: none" target="_blank"> <i class="fa fa-instagram w3-hover-opacity hvr-pulse ficon w3-xxlarge"></i></a>
+  <p> © Martin Winton 2017</p>
+  
+  </footer>
+  
+  </footer>
+  
 <script>
 function openCity(cityName) {
     var i;
