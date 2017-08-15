@@ -13,7 +13,6 @@ Toggle Button Settings
 
 
 
-
 #expand {
   max-height: 0;
     transition: max-height 0.4s ease-out;
@@ -48,6 +47,9 @@ Toggle Button Settings
 }
 
 
+
+
+
 #toggle2:checked ~ #expand {
   max-height: 1200px;
     transition: max-height 0.7s ease-in;
@@ -57,6 +59,8 @@ Toggle Button Settings
 	display:none;
 
 }
+
+
 
 #toggle3:checked ~ #expand {
   max-height: 1200px;

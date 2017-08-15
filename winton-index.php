@@ -33,6 +33,7 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
+ <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 <style>
 html,body,h1,h2,h3,h4,h5,h6,b {font-family: "Ubuntu", sans-serif}
 
@@ -65,6 +66,34 @@ html,body,h1,h2,h3,h4,h5,h6,b {font-family: "Ubuntu", sans-serif}
 
 
 </style>
+
+
+
+
+  <script>
+      $(function () {
+
+        $('form').on('submit', function (e) {
+
+          e.preventDefault();
+
+          $.ajax({
+            type: 'post',
+            url: 'winton-index.php',
+            data: $('form').serialize(),
+            success: function () {
+              alert('form was submitted');
+            }
+          });
+
+        });
+
+      });
+
+      
+    </script>
+
+
 <body class="w3-dark-grey">
 
 <div class="wrapper">
@@ -124,6 +153,8 @@ html,body,h1,h2,h3,h4,h5,h6,b {font-family: "Ubuntu", sans-serif}
      <!-- Middle Column -->
   
 <div class=" col-xs-offset-1 col-xs-10  col-sm-offset-0  col-sm-9 sep">
+
+
  
   
  <div class="w3-container w3-black w3-card-2 animated fadeInDown ">
@@ -390,8 +421,18 @@ html,body,h1,h2,h3,h4,h5,h6,b {font-family: "Ubuntu", sans-serif}
            <a href="https://www.google.com/maps/place/Massachusetts+Institute+of+Technology/@42.3600949,-71.0963487,17z/data=!3m1!4b1!4m5!3m4!1s0x89e370aaf51a6a87:0xd0e08ea5b308203c!8m2!3d42.360091!4d-71.09416" style="text-decoration: none"  target="_blank"> <p class ="w3-hover-opacity"><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-amber"></i>Cambridge, MA</p></a>
 
          
-    <input id="toggle" type="checkbox" >
+<input id="toggle" type="checkbox" > 
   <label for="toggle"><i id="drop" class="fa fa-chevron-down fa-fw w3-text-amber hvr-grow w3-margin-right animated flash" ></i> </label>
+     
+     <?php 
+     
+     
+     
+     
+     
+     ?>
+     
+     
      <div id="expand">
    
 

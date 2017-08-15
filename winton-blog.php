@@ -323,7 +323,7 @@ echo"</div>";
 
          
     <input id="toggle" type="checkbox" >
-  <label for="toggle"><i id="drop" class="fa fa-chevron-down hvr-grow fa-fw w3-text-amber w3-margin-right animated flash" ></i> </label>
+  <label for="toggle"><i id="drop" class="fa fa-chevron-down fa-fw w3-text-amber w3-margin-right animated flash" ></i> </label>
      <div id="expand">
    
 

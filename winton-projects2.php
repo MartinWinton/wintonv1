@@ -152,8 +152,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
      <div>
     
  <h3 class="w3-text-white w3-padding-16">  <a href="https://www.github.com/MartinWinton/encoder-decoder" style="text-decoration: none" target="_blank"><i class="fa fa-github w3-hover-opacity  w3-margin-right w3-text-amber w3-xxlarge""></i></a>Encoder/Decoder in Binary, Hexadecimal, and Base64 </h3> 
-       <input id="toggle4" type="checkbox" >
+       <input id="toggle4" type="checkbox"  >
 
+    
+       
   <label for="toggle4"><i id="drop" class="fa fa-chevron-down hvr-grow w3-text-amber w3-margin-right animated flash" ></i> </label>
       <i class="devicon-php-plain colored w3-margin-right w3-xlarge w3-text-amber"></i>
      <div id="expand">
@@ -163,7 +165,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
    
   </div>
   
-    
+ 
     
     
 
@@ -190,8 +192,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
            <a href="https://www.google.com/maps/place/Massachusetts+Institute+of+Technology/@42.3600949,-71.0963487,17z/data=!3m1!4b1!4m5!3m4!1s0x89e370aaf51a6a87:0xd0e08ea5b308203c!8m2!3d42.360091!4d-71.09416" style="text-decoration: none"  target="_blank"> <p class ="w3-hover-opacity"><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-amber"></i>Cambridge, MA</p></a>
 
          
-    <input id="toggle" type="checkbox" >
-  <label for="toggle"><i id="drop" class="fa fa-chevron-down hvr-gow fa-fw w3-text-amber w3-margin-right animated flash" ></i> </label>
+    <input id="toggle" type="checkbox"  name="check4">
+  <label for="toggle"><i id="drop" class="fa fa-chevron-down hvr-grow fa-fw w3-text-amber w3-margin-right animated flash" ></i> </label>
      <div id="expand">
    
 
