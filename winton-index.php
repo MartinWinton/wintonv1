@@ -39,6 +39,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="scripts/styleswticher.js" type="text/javascript"> </script>
+   
 <style>
 
 
@@ -538,7 +539,7 @@ function openCity(cityName,id) {
 
 </script>
 
-
+ <script src="scripts/hamburger.js" type="text/javascript"> </script>
 
 </body>
 </html>

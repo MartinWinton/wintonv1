@@ -241,10 +241,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 	
 	
 	
-<form method="post"  action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" class="w3-containerw3-text-black   background w3-margin">
+<form method="post"  action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" class="w3-container w3-text-black   background w3-margin">
 
  
-<div class="w3-row w3-section">
+<div class="w3-row w3-section ">
   <div class="w3-col" style="width:50px"><i class="w3-xxlarge main fa fa-user"></i></div>
     <div class="w3-rest">
       <input class="w3-input  w3-border" name="name" value="<?php echo $name;?>" type="text" placeholder="Name"> <span class=" main"><?php echo $nameErr;?>
@@ -420,7 +420,7 @@ if (mail($recipient, $subject, $body, $header,"-f $recipient")){
   </footer>
   
 
-  
+    <script src="scripts/hamburger.js" type="text/javascript"> </script>
 
 	
 
