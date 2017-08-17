@@ -25,15 +25,16 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
+<link class="changeme" href="teststyles.css" rel="stylesheet">
 
 <link href="animate.css" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
-<link href="styles.css" rel="stylesheet">
+<link class="changeme" href="teststyles.css" rel="stylesheet">
 <link href="bootstrap.css" rel="stylesheet">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="scripts/styleswticher.js" type="text/javascript"> </script>
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-
-
 
 .tex sub, .latex sub, .latex sup {
   text-transform: uppercase;
@@ -64,7 +65,12 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 
 </style>
-<body class="w3-dark-grey">
+
+
+
+
+
+<body class="wallpaper">
 
 <div class="wrapper">
 
@@ -75,7 +81,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
         <span></span>
     </a>
 
-    <div id="menu" style="background-color:black">
+    <div id="menu">
         <div class="pure-menu">
       
 
@@ -90,7 +96,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
                 <li class="pure-menu-item"><a href="winton-blog.php" class="pure-menu-link" >Blog</a></li>
             
             
-             <li class="pure-menu-item"><a href="winton-contact.php" class="pure-menu-link" >Contact Me</a></li>
+             <li class="pure-menu-item"><a href="winton-contact.php" class="pure-menu-link selected " >Contact Me</a></li>
             
             </ul>
         </div>
@@ -216,16 +222,16 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class=" col-xs-offset-1 col-xs-10  col-sm-offset-0  col-sm-9 sep">  
    
 
-     <div class="w3-container w3-black w3-card-2 animated fadeInDown" >
-      <h1 class="w3-text-white w3-padding-16"><i class="fa fa-envelope fa-fw w3-margin-right w3-xxlarge w3-text-amber  animated fadeInDownBig"></i>Email Me!</h1>
+     <div class="w3-container background w3-card-2 animated fadeInDown" >
+      <h1 class="text w3-padding-16"><i class="fa fa-envelope fa-fw w3-margin-right w3-xxlarge main  animated fadeInDownBig"></i><b>Email Me!</b></h1>
 </div>
-    <div class="w3-container w3-black w3-margin-top animated fadeInUp">
+    <div class="w3-container background w3-margin-top animated fadeInUp">
 
       
-          <h6 class="w3-text-amber">Interested in contacting me? Fill out this form and lets get in touch!</span></h6>
+          <h6 class="main">Interested in contacting me? Fill out this form and lets get in touch!</span></h6>
       
 
-          <hr>
+          <hr class="text">
     
         
 <h2 style="font-family: verdana;" /h2>
@@ -235,48 +241,48 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 	
 	
 	
-<form method="post"  action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" class="w3-container w3-card-4 w3-text-black   w3-black w3-margin">
+<form method="post"  action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" class="w3-containerw3-text-black   background w3-margin">
 
  
 <div class="w3-row w3-section">
-  <div class="w3-col" style="width:50px"><i class="w3-xxlarge w3-text-amber fa fa-user"></i></div>
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge main fa fa-user"></i></div>
     <div class="w3-rest">
-      <input class="w3-input  w3-border" name="name" value="<?php echo $name;?>" type="text" placeholder="Name"> <span class=" w3-text-amber"><?php echo $nameErr;?>
+      <input class="w3-input  w3-border" name="name" value="<?php echo $name;?>" type="text" placeholder="Name"> <span class=" main"><?php echo $nameErr;?>
 		</span> 
     </div>
 </div>
 
 
 <div class="w3-row w3-section">
-  <div class="w3-col" style="width:50px"><i class="w3-xxlarge w3-text-amber  fa fa-envelope-o"></i></div>
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge main  fa fa-envelope-o"></i></div>
     <div class="w3-rest">
-      <input class="w3-input w3-border" name="sender" value="<?php echo $sender;?>" type="text" placeholder="Email"> <span class=" w3-text-amber"><?php echo $sendErr;?>
+      <input class="w3-input w3-border" name="sender" value="<?php echo $sender;?>" type="text" placeholder="Email"> <span class=" main"><?php echo $sendErr;?>
 		</span> 
     </div>
 </div>
 
 <div class="w3-row w3-section">
-  <div class="w3-col" style="width:50px"><i class="w3-xxlarge w3-text-amber  fa fa-pencil"></i></div>
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge main  fa fa-pencil"></i></div>
     <div class="w3-rest">
-      <input class="w3-input w3-border" name="subject" value="<?php echo $subject;?>" type="text" placeholder="Subject">  <span class=" w3-text-amber"><?php echo $subErr;?>
+      <input class="w3-input w3-border" name="subject" value="<?php echo $subject;?>" type="text" placeholder="Subject">  <span class=" main"><?php echo $subErr;?>
 		</span> 
     </div>
 </div>
 
 <div class="w3-row w3-section">
-  <div class="w3-col" style="width:50px"><i class="w3-xxlarge w3-text-amber  fa fa-pencil"></i></div>
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge main  fa fa-pencil"></i></div>
     <div class="w3-rest">
      
       
-        <textarea class="w3-input w3-border"  name="body" type="text-box" rows="10" placeholder="Body"><?php echo $body;?></textarea> <span class=" w3-text-amber">
+        <textarea class="w3-input w3-border"  name="body" type="text-box" rows="10" placeholder="Body"><?php echo $body;?></textarea> <span class=" main">
       
-       <span class=" w3-text-amber"><?php echo $bodyErr;?>
+       <span class=" main"><?php echo $bodyErr;?>
 		
 		</span>
     </div>
 </div>
 
-<button class="w3-button w3-block w3-section w3-amber w3-ripple w3-padding">Send</button>
+<button class="w3-button w3-block w3-section mainbutton w3-ripple w3-padding">Send</button>
 
 </form>
 	
@@ -294,7 +300,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 	
 	<?php
 
-$recipient = "martinthenkight@gmail.com";
+$recipient = "mwinton@mit.edu";
 	
 	if(filter_var($recipient, FILTER_VALIDATE_EMAIL) and filter_var($sender, FILTER_VALIDATE_EMAIL) and $name != "" and $body != "" and $subject !=""){
 
@@ -310,7 +316,7 @@ $header = "$name $sender\r\n";
  
 // Send email
 if (mail($recipient, $subject, $body, $header,"-f $recipient")){
-	echo "<h5 class='w3-text-amber w3-padding-16'>Sent!</h5>";
+	echo "<h5 class='main w3-padding-16'>Sent!</h5>";
 	$recipient = $sender = $subject = $body = $name=  "";
 	
 } else {
@@ -332,46 +338,46 @@ if (mail($recipient, $subject, $body, $header,"-f $recipient")){
     <!-- Start of Card -->
    <div class=" col-xs-offset-2 col-xs-8  col-sm-offset-0 col-sm-3 ">
       
-      <div class="w3-black w3-text-white w3-card-4  animated fadeInRight">
+      <div class="background w3-text-white w3-card-4  animated fadeInRight">
         <div class="w3-display-container">
           <img src="http://imgur.com/download/yJSzUMt" style="width:100%;" alt="Picture supported on Internet Explorer">
           <div class="w3-display-bottomleft w3-container w3-text-white">
             <h2>Martin Winton</h2>
           </div>
         </div>
-        <div class="w3-container">
-          <p><i class="fa fa-suitcase fa-fw w3-margin-right w3-large w3-text-amber"></i>Software Developer</p>
-        <a href="https://web.mit.edu/" style="text-decoration: none"  target="_blank"> <p class ="w3-hover-opacity"><i class="fa fa-graduation-cap fa-fw  w3-margin-right w3-large w3-text-amber"></i>Sophomore at MIT</p></a>
-           <a href="https://www.google.com/maps/place/Massachusetts+Institute+of+Technology/@42.3600949,-71.0963487,17z/data=!3m1!4b1!4m5!3m4!1s0x89e370aaf51a6a87:0xd0e08ea5b308203c!8m2!3d42.360091!4d-71.09416" style="text-decoration: none" > <p class ="w3-hover-opacity"><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-amber"  target="_blank"></i>Cambridge, MA</p></a>
+        <div class="w3-container text">
+          <p><i class="fa fa-suitcase fa-fw w3-margin-right w3-large main"></i>Software Developer</p>
+        <a href="https://web.mit.edu/" style="text-decoration: none"  target="_blank"> <p class ="w3-hover-opacity"><i class="fa fa-graduation-cap fa-fw  w3-margin-right w3-large main"></i>Sophomore at MIT</p></a>
+           <a href="https://www.google.com/maps/place/Massachusetts+Institute+of+Technology/@42.3600949,-71.0963487,17z/data=!3m1!4b1!4m5!3m4!1s0x89e370aaf51a6a87:0xd0e08ea5b308203c!8m2!3d42.360091!4d-71.09416" style="text-decoration: none" > <p class ="w3-hover-opacity"><i class="fa fa-home fa-fw w3-margin-right w3-large main"  target="_blank"></i>Cambridge, MA</p></a>
      
         
-      <input id="toggle" type="checkbox" >
-  <label for="toggle"><i id="drop" class="fa fa-chevron-down  hvr-grow fa-fw w3-text-amber w3-margin-right animated flash" ></i> </label>
-     <div id="expand">
+      <input id="toggle" type="checkbox" class="switch" >
+  <label for="toggle"><i id="drop" class="fa fa-chevron-up  hvr-grow fa-fw main w3-margin-right animated flash" ></i> </label>
+     <div id="expand" class="text">
    
 
         
           <p class="w3-large"><b></i>Coding Languages</b></p>
         
           
-          <p><i class="devicon-java-plain w3-margin-right w3-xlarge w3-text-amber"></i>Java</p>
-           <p><i class="devicon-python-plain w3-margin-right w3-xlarge w3-text-amber"></i>Python</p>
-            <p><i class="devicon-php-plain w3-margin-right w3-xlarge w3-text-amber"></i>PHP</p>
-             <p><i class="devicon-cplusplus-plain w3-margin-right w3-xlarge w3-text-amber"></i>C/C++</p>
-              <p><i class="devicon-html5-plain w3-margin-right w3-xlarge w3-text-amber"></i>HTML</p>
+          <p><i class="devicon-java-plain w3-margin-right w3-xlarge main"></i>Java</p>
+           <p><i class="devicon-python-plain w3-margin-right w3-xlarge main"></i>Python</p>
+            <p><i class="devicon-php-plain w3-margin-right w3-xlarge main"></i>PHP</p>
+             <p><i class="devicon-cplusplus-plain w3-margin-right w3-xlarge main"></i>C/C++</p>
+              <p><i class="devicon-html5-plain w3-margin-right w3-xlarge main"></i>HTML</p>
           
         
          
         
        
         
-	  <hr>
+	  <hr class="text">
           <p class="w3-large w3-text-theme"><b>Technical Programs</b></p>
-            <p><i class="devicon-mysql-plain w3-margin-right w3-xlarge w3-text-amber"></i>MySQL</p>
-            <p><i class="devicon-ubuntu-plain colored w3-margin-right w3-xlarge w3-text-amber"></i>Ubuntu Server </p>
-            <p><i class="devicon-apache-plain colored w3-margin-right w3-xlarge w3-text-amber"></i>Apache </p>
-            <p><i class="devicon-github-plain  w3-margin-right w3-large  w3-xlarge w3-text-amber"></i>Git/Github</p>
-            <p><i class="fa fa-file-word-o fa-fw w3-margin-right w3-large w3-text-amber"></i>Microsoft Office</p>
+            <p><i class="devicon-mysql-plain w3-margin-right w3-xlarge main"></i>MySQL</p>
+            <p><i class="devicon-ubuntu-plain colored w3-margin-right w3-xlarge main"></i>Ubuntu Server </p>
+            <p><i class="devicon-apache-plain colored w3-margin-right w3-xlarge main"></i>Apache </p>
+            <p><i class="devicon-github-plain  w3-margin-right w3-large  w3-xlarge main"></i>Git/Github</p>
+            <p><i class="fa fa-file-word-o fa-fw w3-margin-right w3-large main"></i>Microsoft Office</p>
          
        
           <br>
@@ -397,7 +403,11 @@ if (mail($recipient, $subject, $body, $header,"-f $recipient")){
 
 </div>
 <div class="footer"></div>
-<footer class="w3-container w3-black w3-center w3-margin-top w3-text-amber animated fadeInUp" style="height:110px">
+<footer class=" background w3-center  main animated fadeInUp" style="height:180px">
+<br>
+ <p> Pick a Theme!</p>
+<a style = "text-decoration: none;" class= "theme" href="#" rel="teststyles.css"><i class="fa fa-moon-o fa-fw  w3-hover-opacity hvr-pulse  w3-xlarge main"></i> </a>
+	<a style = "text-decoration: none;"  class= "theme" href="#" rel="daystyle.css"><i class="fa fa-sun-o fa-fw  w3-hover-opacity hvr-pulse  w3-xlarge main"></i> </a>
 <br>
 
    <a href="https://www.linkedin.com/in/martin-winton-0a8b42127" style="text-decoration: none" target="_blank"><i class="fa fa-linkedin ficon  w3-hover-opacity hvr-pulse w3-xxlarge""></i></a>
@@ -409,57 +419,9 @@ if (mail($recipient, $subject, $body, $header,"-f $recipient")){
   
   </footer>
   
-<script> (function (window, document) {
 
-    var layout   = document.getElementById('layout'),
-        menu     = document.getElementById('menu'),
-        menuLink = document.getElementById('menuLink'),
-        content  = document.getElementById('main');
+  
 
-    function toggleClass(element, className) {
-        var classes = element.className.split(/\s+/),
-            length = classes.length,
-            i = 0;
-
-        for(; i < length; i++) {
-          if (classes[i] === className) {
-            classes.splice(i, 1);
-            break;
-          }
-        }
-        // The className is not found
-        if (length === classes.length) {
-            classes.push(className);
-        }
-
-        element.className = classes.join(' ');
-    }
-
-    function toggleAll(e) {
-        var active = 'active';
-
-        e.preventDefault();
-        toggleClass(layout, active);
-        toggleClass(menu, active);
-        toggleClass(menuLink, active);
-    }
-
-    menuLink.onclick = function (e) {
-        toggleAll(e);
-    };
-
-    content.onclick = function(e) {
-        if (menu.className.indexOf('active') !== -1) {
-            toggleAll(e);
-        }
-    };
-
-}(this, this.document));
-
-
-
-
-	</script>
 	
 
 
