@@ -227,7 +227,7 @@ small screens.
   left: 0;
   /* "#menu width" */
   background: black;
-  background: rgba(0, 0, 0, 0.7);
+
   font-size: 7px;
   /* change this value to increase/decrease button size */
   z-index: 10;
