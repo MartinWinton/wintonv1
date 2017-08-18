@@ -9,19 +9,19 @@
 <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/elusive-icons/2.0.0/css/elusive-icons.min.css">
 <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/4.1.0/css/fabric.min.css">
-<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="57x57" href="fav/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="fav/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="fav/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="fav/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="fav/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="fav/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="fav/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="fav/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="fav/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="fav/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="fav/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
 <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 <link class="changeme" href="teststyles.css" rel="stylesheet">
@@ -96,7 +96,7 @@ html,body,h1,h2,h3,h4,h5,h6,b {font-family: "Ubuntu", sans-serif}
       
 
             <ul class="pure-menu-list">
-                <li class="pure-menu-item "><a href="winton-index.php" class="pure-menu-link selected ">Home</a></li>
+                <li class="pure-menu-item "><a href="index.php" class="pure-menu-link selected ">Home</a></li>
 
                 <li class="pure-menu-item" >
                     <a href="winton-projects2.php" class="pure-menu-link" >Projects</a>
@@ -179,9 +179,9 @@ html,body,h1,h2,h3,h4,h5,h6,b {font-family: "Ubuntu", sans-serif}
         <div class="w3-container text-center">
           <h2   style="text-shadow:1px 1px 0 #444"><b>Hi!</b></h2>
         
-          <p>Duo Reges: constructio interrete. An quod ita callida est, ut optime possit architectari voluptates? Quid turpius quam sapientis vitam ex insipientium sermone pendere? Quid igitur dubitamus in tota eius natura quaerere quid sit effectum? Pauca mutat vel plura sane;</p>
+       
       
-      <p>Potius inflammat, ut coercendi magis quam dedocendi esse videantur. Verum hoc idem saepe faciamus. Diodorus, eius auditor, adiungit ad honestatem vacuitatem doloris. Nec vero alia sunt quaerenda contra Carneadeam illam sententiam. Quae hic rei publicae vulnera inponebat, eadem ille sanabat. Si quicquam extra virtutem habeatur in bonis. Isto modo ne improbos quidem, si essent boni viri. Suo genere perveniant ad extremum;</p>
+      <p>My name is Martin Winton and I am an aspiring software developer. I am currently enjoying my second year at MIT and pursuing a major in Computer Science with a minor in Economics. My goal is to create software that is useful, streamlined, and fun!</p>
       
       
         </div>
