@@ -1,2 +1,2 @@
 # wintonv1
-First Personal website
+First animated Personal website with blog, projects page, and style switcher.
